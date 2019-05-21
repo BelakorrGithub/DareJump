@@ -7,6 +7,7 @@ const STEP = 10
 
 function App() {
   const [posX, setPosX] = useState(0)
+  const containerRef = createRef(null)
   useEffect(() => {
     const eventListener = event => {
       const screenWidth = containerRef.current.clientWidth
@@ -20,8 +21,7 @@ function App() {
     return () => {
       document.removeEventListener('keydown', eventListener)
     }
-  }, [posX])
-  const containerRef = createRef(null)
+  }, [posX, containerRef])
   return (
     <div className="App" ref={containerRef}>
       <div className={styles.Player} style={{ left: posX }} />
