@@ -1,0 +1,7 @@
+.Player {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: lightblue;
+  border-radius: 3px;
+}
