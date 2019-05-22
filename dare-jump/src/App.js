@@ -12,9 +12,9 @@ function App() {
     const eventListener = event => {
       const screenWidth = containerRef.current.clientWidth
       if (event.key === 'ArrowRight' && posX < screenWidth - PLAYER_WIDTH) {
-        setPosX(posX + STEP)
+        setPosX(Math.min(posX + STEP, screenWidth - PLAYER_WIDTH))
       } else if (event.key === 'ArrowLeft' && posX > 0) {
-        setPosX(posX - STEP)
+        setPosX(Math.max(posX - STEP, 0))
       }
     }
     document.addEventListener('keydown', eventListener)
