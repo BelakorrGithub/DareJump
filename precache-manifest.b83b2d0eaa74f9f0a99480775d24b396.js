@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d1efec1802d82a840b03e0a0817cdd7",
+    "revision": "52808b870d8dd6e7c8b3a7f14d9e94d9",
     "url": "/DareJump/index.html"
   },
   {
-    "revision": "a5ae7b59351332b8ee63",
+    "revision": "4a88e4d5b64dc689894a",
     "url": "/DareJump/static/css/main.18e13efb.chunk.css"
   },
   {
-    "revision": "1ed47eb8a12884a418eb",
-    "url": "/DareJump/static/js/2.3db1a4b2.chunk.js"
+    "revision": "816054c7fd6244b0c260",
+    "url": "/DareJump/static/js/2.e62d9797.chunk.js"
   },
   {
-    "revision": "a5ae7b59351332b8ee63",
-    "url": "/DareJump/static/js/main.75c742c5.chunk.js"
+    "revision": "4a88e4d5b64dc689894a",
+    "url": "/DareJump/static/js/main.0e8ab436.chunk.js"
   },
   {
     "revision": "ca3cc4515f1524ec3be9",
