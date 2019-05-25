@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styles from './App.module.css'
 import './App.css'
 
@@ -7,7 +7,7 @@ const STEP = 10
 
 function App() {
   const [posX, setPosX] = useState(0)
-  const containerRef = createRef(null)
+  const containerRef = useRef(null)
   useEffect(() => {
     const eventListener = event => {
       const screenWidth = containerRef.current.clientWidth
