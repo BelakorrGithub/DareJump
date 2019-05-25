@@ -14,7 +14,7 @@ body {
 
 .PlaygroundWrapper {
   display: grid;
-  grid-template-columns: 0.5fr;
+  grid-template-columns: 0.4fr;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,13 @@ body {
   background-image: url(images/landscape.jpg);
   background-size: cover;
 }
+
+
+@media screen and (max-width: 1300px) {
+    .PlaygroundWrapper {
+      grid-template-columns: 0.5fr;
+    }
+  }
 
 @media screen and (max-width: 768px) {
   .PlaygroundWrapper {
