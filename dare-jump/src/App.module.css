@@ -6,6 +6,34 @@ body {
   position: absolute;
   width: 32px;
   height: 32px;
-  background-color: lightblue;
+  background-color: orange;
+  border-radius: 2px;
+  border: 1px solid #666;
+  transition: bottom 200ms, left 50ms;
+}
+
+.PlaygroundWrapper {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Playground {
+  position: relative;
+  width: 100%;
+  /* By doing this we create a responsive always-square figure */
+  padding-bottom: 100%;
+  border: 1px solid #666;
+  box-shadow: 8px 8px 10px 0px #ccc;
   border-radius: 3px;
+  background-image: url(images/landscape.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .PlaygroundWrapper {
+    grid-template-columns: 0.8fr;
+  }
 }
