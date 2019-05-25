@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/DareJump/static/css/main.dac06de3.chunk.css",
-    "main.js": "/DareJump/static/js/main.873e6839.chunk.js",
-    "main.js.map": "/DareJump/static/js/main.873e6839.chunk.js.map",
+    "main.css": "/DareJump/static/css/main.18e13efb.chunk.css",
+    "main.js": "/DareJump/static/js/main.75c742c5.chunk.js",
+    "main.js.map": "/DareJump/static/js/main.75c742c5.chunk.js.map",
     "runtime~main.js": "/DareJump/static/js/runtime~main.81ce4a76.js",
     "runtime~main.js.map": "/DareJump/static/js/runtime~main.81ce4a76.js.map",
-    "static/js/2.93bfb7ad.chunk.js": "/DareJump/static/js/2.93bfb7ad.chunk.js",
-    "static/js/2.93bfb7ad.chunk.js.map": "/DareJump/static/js/2.93bfb7ad.chunk.js.map",
+    "static/js/2.3db1a4b2.chunk.js": "/DareJump/static/js/2.3db1a4b2.chunk.js",
+    "static/js/2.3db1a4b2.chunk.js.map": "/DareJump/static/js/2.3db1a4b2.chunk.js.map",
     "index.html": "/DareJump/index.html",
-    "precache-manifest.79973a7bdb8a0ab945e5b4af47eb440e.js": "/DareJump/precache-manifest.79973a7bdb8a0ab945e5b4af47eb440e.js",
+    "precache-manifest.00fa14c309bcf3fa9de7d7523d9bcd62.js": "/DareJump/precache-manifest.00fa14c309bcf3fa9de7d7523d9bcd62.js",
     "service-worker.js": "/DareJump/service-worker.js",
-    "static/css/main.dac06de3.chunk.css.map": "/DareJump/static/css/main.dac06de3.chunk.css.map"
+    "static/css/main.18e13efb.chunk.css.map": "/DareJump/static/css/main.18e13efb.chunk.css.map",
+    "static/media/App.module.css": "/DareJump/static/media/landscape.cbfab08f.jpg"
   }
 }
