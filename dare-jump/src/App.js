@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styles from './App.module.css'
-import './App.css'
 
 const PLAYER_WIDTH = 32
 const STEP = 10
